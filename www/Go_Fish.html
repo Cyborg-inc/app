@@ -1,0 +1,46 @@
+<html class="Go fish">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then remove the CSS include above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+
+
+  <body bgcolor="lightblue" ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-calm">
+        <a href="index.html"><button class="button button-icon icon ion-home"></button></a>
+        <h2 class="title">Go Fish</h2>
+      </ion-header-bar>
+      <ion-content class="has-header">
+      <h3>What you need</h3>
+      <ul>
+        <li>a deck of playing cards</li>
+      </ul>
+      <h3>How to play</h3>
+      <p>shuffle the deck<br><br>deal out seven cards to each player<br><br>place the reaming cards face down<br>the player to the right of the dealer goes first<br><br>The player then asks any other player if they a have any cards of a specific number or rank<br>(1,2,3,4,5,6,7,8,9,10,Jack,King,Queen)<br><br>if the player who is asked has any cards with the rank asked for the must give all of their cards in that rank to the player who  asked<br><br>If the player who is asked doesn't have any cards with the rank asked for they say "Go Fish"<br><br> when the player "Goes Fish" they pick up a card from the pile<br><br>if the player was right ,and collected cards form another player, they can then ask again(to the same of different player)<br><br>When a player "goes Fish" there turn ends and the next player (going clockwise) has their turn<br><br> once a player has all four cards of a rank they place then down to show other that they have the whole rank<br><br>this continues until there are no cards left<br><br> the winner is whoever has the most ranks<br><br> if player have the same amount of ranks then the ranks are used to score and whoever has the highest score wins<br><br> the scores work as follows (highest value top left, lowest value bottom right)</p>
+      <center><img src="http://www.wsop.com/how-to-play-poker/images/how-to-card-rank.jpg"style="width:350px;height:228px"></center> 
+    </div>
+</div>
+</ul>
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>

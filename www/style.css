@@ -1,6 +1,6 @@
 #symbol{
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
 }
 h2{
   font-family: "Marker Felt", comicsnasMC;
@@ -8,7 +8,7 @@ h2{
   margin: 35px;
 
 }
-.list p;{
+.list ;{
   font-family: "Marker Felt"
   color: red;
 }
@@ -16,6 +16,7 @@ h2{
   text-align: center;
   font-size: 40px;
   margin: 20px;
+  color: white;
 }
 .item{
   font-family: "Marker Felt";
@@ -23,26 +24,23 @@ h2{
   color: red;
   margin: 5px ;
 }
-body {
-    background-color: yellow !important;
-}
-.ion-content
-{
-    background-color: green;
-}
 p{
   font-family: "Marker Felt";
-  margin: 10px;
+  margin: 13px;
+  color: green;
 }
 }
 a{
   font-family: "Marker Felt";
   font-size: 2rem;
+  color: red;
+
 }
 li{
   margin: 10px;
   font-size: 20px;
   font-family: "Marker Felt";
+  color: red 
 }
 h3{
   text-align: left;
@@ -54,4 +52,12 @@ h6{
 b{
   font-size: 15px;
 }
-
+.poker{
+  font-size: 200px;
+}
+.ion-home{
+  size: 1rem;
+}
+#la{
+  align-self: right;
+}
