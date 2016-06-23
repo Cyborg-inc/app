@@ -4,7 +4,7 @@
 }
 h2{
   font-family: "Marker Felt", comicsnasMC;
-  text-align: "center"
+  text-align: center;
   margin: 35px;
 
 }
@@ -26,7 +26,7 @@ h2{
 }
 p{
   font-family: "Marker Felt";
-  margin: 13px;
+  margin: 20px;
   color: green;
 }
 }
@@ -43,7 +43,7 @@ li{
   color: red 
 }
 h3{
-  text-align: left;
+  text-align: center;
   font-family: "Marker Felt";
 }
 h6{
@@ -58,6 +58,13 @@ b{
 .ion-home{
   size: 1rem;
 }
-#la{
-  align-self: right;
+#divide{
+  margin: 0px;
+}
+.indent{
+  font-family: "Marker Felt";
+  margin: 13px
+}
+.big_indent{
+  font-size: 13px
 }
